@@ -1,7 +1,7 @@
 <?php
 require 'functions.php';
 
-$buku = query("SELECT * FROM buku");
+$buku = query("SELECT * FROM buku")
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +9,7 @@ $buku = query("SELECT * FROM buku");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KAKKOII BOOK</title>
+    <title>BOOK LIBRARY</title>
 </head>
 <body class="bg-light">
     <h1 class = text-center>Daftar Buku</h1>
